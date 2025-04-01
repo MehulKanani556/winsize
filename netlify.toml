@@ -1,0 +1,15 @@
+[build]
+  # Your build command
+  command = "npm install"
+
+  # Directory that includes your static HTML files
+  publish = "build/"
+
+[build.environment]
+  # Set environment variables if needed (optional)
+  
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
